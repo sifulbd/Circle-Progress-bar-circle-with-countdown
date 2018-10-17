@@ -1,0 +1,42 @@
+.mt {
+  margin-top: 30px;
+}
+
+.mh-progress {
+  margin: 0 0 30px;
+  font: 900 1.1428571429em/1 Cinzel, cursive;
+}
+
+.mh-progress .progressbar-text {
+  color: inherit !important;
+}
+
+.progress.progress-line {
+  height: 10px;
+  margin-right: 60px;
+}
+
+.progress.progress-line .progressbar-text {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 60px;
+  -webkit-transform: translateY(-35%);
+      -ms-transform: translateY(-35%);
+          transform: translateY(-35%);
+  text-align: center;
+}
+
+.mh-progress.mh-progress-circle {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+.mh-progress path:nth-child(1) {
+  stroke: #E8E8E8;
+}
+
+.mh-progress path:nth-child(2) {
+  stroke: #CDB586;
+}
